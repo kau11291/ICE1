@@ -22,10 +22,11 @@ public class CardTrickICE1 {
         for( int i=0;i<magicHand.length;i++)
         {
             Card c1 = new Card();
-            c1.setValue(2);//use a method to generate random *13
+            c1.setValue(Math.random);//use a method to generate random *13
             c1.setSuits("hearts");//random method suit 
+            magicHand[i]=c1;
         }
-        //step 2:take input 
+        //step 2:take one card input from the user(scanner) 
         
         //step 3: match with array 
     }
